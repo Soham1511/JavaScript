@@ -12,4 +12,13 @@ let str2 = " Soham";
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "3");
 
-console.log(+true)
+// console.log(+true)
+let gameScore = 100;
+// gameScore++;
+// console.log(gameScore);
+// ++gameScore;
+// console.log(gameScore);
+// --gameScore;
+// console.log(gameScore);
+gameScore--;
+console.log(gameScore);
