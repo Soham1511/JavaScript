@@ -23,5 +23,22 @@ let score2 = 200;
 let score3 = 300;
 console.log(Array.of(score1,score2,score3)); // 'of' converts variables to the Arrays 
 
+let myarr =[1,2,3,4];
+let joined = myarr.join();
+console.log(joined);
+
+let mna1 = [1,2,4,5,7,8];
+console.log("A " + mna1);
+
+let sli = console.log(mna1.slice(0,3));
+console.log("B " + mna1);
+
+let spli = (mna1.splice(1,4));
+console.log("C " + mna1);
+
+
+
+
+
 
 
