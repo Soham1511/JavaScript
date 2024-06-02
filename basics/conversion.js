@@ -22,3 +22,8 @@ let num = 7;
 let numToString = String(num);
 console.log(numToString);
 console.log(typeof numToString);
+
+let str = "Soham";
+let strTonum = Number(str);
+console.log(strTonum); //NaN
+console.log(typeof strTonum); //Number
