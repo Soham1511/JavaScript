@@ -10,7 +10,11 @@ arr.pop()
 // console.log(arr);
 
 let mya1 = console.log(arr.slice(0, 3)); // slice do not manipulate to the original array. slice gives the portion of the original array and leaves original array as it is.
-console.log("OG", arr);
+// console.log("OG", arr);
 
 let mya2 = console.log(arr.splice(0, 3)); // splice manipulate to the original array. It gives the portion of the array and also cut that portion from original array.
-console.log("OG", arr);
+// console.log("OG", arr);
+
+const marval = ["Thor" , "iron Man", "Spider Man"];
+const DC = ["Super Man", "Flash", "Bat Man"];
+console.log(marval.push(DC));
