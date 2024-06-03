@@ -1,44 +1,17 @@
-//Arrays
-const marval = ["Iron man", "Spider Man","Thor"];
-const DC = ["Bat Man","Flash","Super Man"];
-// marval.push(DC);
-// console.log(marval);
+const marvel = ["thor", "iron man","spiderman"]
+const dc = ["superman","flash","batman"]
 
-// const allHeros = marval.concat(DC);
-// console.log(allHeros);
+// marvel.push(dc); // will display dc as a element of marvel (array inside array)
+// console.log(marvel[3][2]); // will give the access of inner array
 
-// const allNewHeros = [...marval, ...DC]; // Spreding of two arrays (Concatination of Two diff Arrays);
-// console.log(allNewHeros);
+// let marvelAndDc = marvel.concat(dc) 
+// console.log(marvelAndDc); // will display the 2 arrays in single array
 
-const arr = [1,2,5,7, [6,3,8,4,9],8,8,[5,8,9,55,25],5];
-const newArr = arr.flat(Infinity); // flat creates one array by combining all sub array.
-// console.log(newArr);
+const allHeros = [...marvel, ...dc];  // ...is a spread operator which spread the entire array works as concatination
+console.log(allHeros); 
 
-console.log(Array.isArray("Soham"));
-console.log(Array.from("Soham")); // will convert to the array
-console.log(Array.from({name:"Soham"})); // will give empty array []
+const spread = [...marvel]; // if u use single array and ... then nothing will change in array
+console.log(spread);
 
-let score1 = 100;
-let score2 = 200;
-let score3 = 300;
-console.log(Array.of(score1,score2,score3)); // 'of' converts variables to the Arrays 
-
-let myarr =[1,2,3,4];
-let joined = myarr.join();
-console.log(joined);
-
-let mna1 = [1,2,4,5,7,8];
-console.log("A " + mna1);
-
-let sli = console.log(mna1.slice(0,3));
-console.log("B " + mna1);
-
-let spli = (mna1.splice(1,4));
-console.log("C " + mna1);
-
-
-
-
-
-
-
+let arr = [1,2,4,5,[7,9,3,8],9,34,46,29,[12,43,64],2];
+console.log 
