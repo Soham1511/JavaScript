@@ -12,8 +12,9 @@ const user = {
     isLoggedin : false
 };
 
-console.log(user.name); // we are not able to get the value if the key is in string type
-console.log(user["name"]); // another way of accessing the values of objects
+console.log(user.name); // we are not able to get the value if the key is in string type.
+console.log(user["name"]); // use ""  for accessing values from objects by using [].
+console.log(user["age"]);
 console.log(user[sym]);  
 
 user.email = "soham@gmail.com"; // we can easily change the val of any key val pair by only putting '=' sign
