@@ -3,7 +3,7 @@
 
 let a = 1;
 var b = 1;
-const c = 1; // these are some var declaration method in js
+const c = 1; // these are some var declaration methods in js
 console.log(a);
 console.log(b);
 console.log(c); // such as we can access the var
@@ -24,4 +24,4 @@ if (true)
         console.log(e); 
     }
 console.log(e); // variable e is accessible outside of if condition beacause of var keyword.
-// usually we do not declare a variable with var keyword.
+// usually we do not declare a variable with var keyword. 
