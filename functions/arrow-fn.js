@@ -3,7 +3,7 @@ const user =
     name : "soham",
     msg : function()
     {
-        console.log(`${this.name}, welcome to our wibsite`); // this keyword holds the current constext
+        console.log(`${this.name}, welcome to our wibsite`); // this keyword holds the current context
         //console.log(this) // so this line shows the current context of user object such as user holds the key name and msg, msg further holds the function
     } 
 }
