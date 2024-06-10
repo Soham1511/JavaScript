@@ -38,3 +38,4 @@ console.log(add(3,4))
 
 const sample = () => ({name : "sam"}); //if you want to declare obj inside fn then we should wrap it in ()
 console.log(sample())
+
