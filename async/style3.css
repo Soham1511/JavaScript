@@ -1,0 +1,25 @@
+table,
+th,
+td{
+    border: 2px solid #e7e7e7;
+}
+
+.project{
+    height: 100vh;
+    color: #ffffff;
+    background-color: #1c1c1c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.insert{
+    font-size: 20px;
+}
+
+.color{
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+}
